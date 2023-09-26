@@ -1,0 +1,67 @@
+
+.proiject
+{
+    width: 31%;
+    overflow:hidden;
+    position: relative;
+    margin-left: 7px;
+    margin-bottom: 7px;
+    
+
+}
+.proiject .layer
+{
+    position:absolute;
+   top: 100%;
+    
+
+}
+.layer
+{
+    display: flex;
+    flex-flow:  row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transition: all .5s 0s ease-in-out;
+     background-color: #1abc9c;
+}
+.li
+{
+    width: 80px;
+    height: 4px;
+    background-color: black;
+}
+.proiject:hover .layer{
+    top:0;
+}
+.proiject:hover .layer i{
+    transform: translate(360deg);
+}
+.layer i{
+    font-size:x-large;
+    
+}
+@keyframes rotatee
+{
+    0%
+    {
+             transform: translate(0deg);
+    }
+    50%
+    {
+        transform: translate(180deg);
+    }
+    100%
+    {
+        transform: translate(360deg);
+    }
+}
+
+@media  screen and (min-width:2px) and (max-width:700px) {
+    .proiject
+    {
+        width: 100%;
+    }
+    
+}

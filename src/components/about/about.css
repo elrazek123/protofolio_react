@@ -1,0 +1,38 @@
+.about
+{
+    height: 600px;
+}
+.l
+{
+    width: 80px;
+    height: 4px;
+background-color: #fff;
+}
+.about{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #1abc9c;
+    color: #fff;
+}
+.about-two,
+.about-three
+{
+    width: 47%;
+}
+@media screen and (min-width:2px) and (max-width:620px)
+{
+
+    .about-two,
+.about-three
+{
+    width: 100%;
+   
+}
+.about-two
+{
+margin-top: 10px;
+}
+}

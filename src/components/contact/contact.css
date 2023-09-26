@@ -1,0 +1,50 @@
+button{
+    background-color: #1abc9c;
+    color: #fff;
+}
+.er
+{
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+form
+{
+    height: 500px;
+  
+}
+label{
+    color: #1abc9c;
+    font-weight:400;
+    font-size: larger;
+}
+input:focus{
+    border: 0;
+    border: none;
+    border-width: 0px;
+    border-bottom: none;
+   
+}
+i{
+    color: black;
+    font-size: x-large;
+}
+hr{
+    border-color:#e7eaedcb ;
+   background-color:#e7eaedb6 ;
+}
+.hj
+{
+    background-color:#1abc9c;
+    color: #fff;
+    height: 40px;
+}
+.ty
+{
+    width: 80px;
+    height: 4px;
+    background-color: black;
+}
